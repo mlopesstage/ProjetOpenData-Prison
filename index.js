@@ -26,4 +26,4 @@ bot.on('message', message => {
     Sup.parse(message) //Commande !sup
 })
 
-bot.login('Nzc1MDEwNDg5NDI3MTY1MjU0.X6gGww.gJT_MHLkcdLR6ZTjcmeNOF1pKAs')
+bot.login('Nzc1MDEwNDg5NDI3MTY1MjU0.X6gGww.8NkeOyi6WFjBvzAUpGzbNcn2Vnw')
