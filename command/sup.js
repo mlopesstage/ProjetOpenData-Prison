@@ -1,4 +1,3 @@
-const Discord = require('discord.js')
 const Command = require('./command')
 
 module.exports = class Supp extends Command {
@@ -10,8 +9,8 @@ module.exports = class Supp extends Command {
     }
 
     static action (message) {
-        let msg = message.content.split(' ') //Sépare la commande de la valeur
-        msg.shift() //Supprimer un élément du tableau et le retourne
+        let msg = message.content.split(' ') //Separe la commande de la valeur
+        msg.shift() //Supprimer premier element de la chaine
 
         if (message.content === '!sup') { //Si l'utilisateur saisi !sup sans la valeur on le prévient
             message.reply('Combien de messages à supprimer ? (max 100)' +

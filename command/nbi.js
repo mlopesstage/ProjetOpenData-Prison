@@ -1,4 +1,4 @@
-const { Discord, MessageAttachment } = require('discord.js')
+const { MessageAttachment } = require('discord.js')
 const Command = require('./command')
 
 module.exports = class Help extends Command {

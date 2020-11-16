@@ -1,4 +1,3 @@
-const Discord = require('discord.js')
 const Command = require('./command')
 
 module.exports = class Help extends Command {
