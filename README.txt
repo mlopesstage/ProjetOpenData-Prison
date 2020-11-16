@@ -25,24 +25,24 @@ Nous avons développé et testé cette application sur Windows.
 	https://nodejs.org/fr/
 
 
-	b. Suite a la sécurité de discord nous ne pouvons mettre la clé de connexion dans le code.
-	Afin de tester le code il faudra donc ouvrir "index.js" dans le dossier du projet.
-	Tout en bas la où il y a écrit "bot.login" saisir "Nzc1MDEwNDg5NDI3MTY1MjU0.X6gGww.YQS3ZUg9PcCojNoT5_hk2Roz3sM" au lieu de "Saisir ici la clé"
+	b. Suite a la sécurité de discord il faudra modifier le fichier "index.js" dans le dossier du projet.
+	Tout en bas du fichier, la où il y a écrit "bot.login" supprimer " " au mileu de la chaîne de lettres et chiffres.
+	Vous aurez donc ...ksLimP... au lieu de ...ksL" "imP...
 
 
-	b. Ensuite ouvrez un invité de commande
+	c. Ensuite ouvrez un invité de commande
 	Cliquer sur la bare de recherche Windows
 	Taper : cmd
 	Choisir "Invite de commandes"
 
-	c. Déplacez-vous pour aller dans le dossier contenant le code du projet
+	d. Déplacez-vous pour aller dans le dossier contenant le code du projet
 	Par exemple si le dossier est sur votre bureau saisir :
 		cd Desktop\ProjetOpenData
 
-	d. Enfin saisir la commande :
+	e. Enfin saisir la commande :
 		node index.js
 	/!\ Ne pas fermer l'invite de commande /!\
 
-	e. Vous pouvez enfin tester le bot. Pour afficher l'aide, saisir dans le chat du channel "!help".
+	f. Vous pouvez enfin tester le bot. Pour afficher l'aide, saisir dans le chat du channel "!help".
 
-	f. Pour déconnecter le bot faire ctrl + c dans l'invite de commande.
+	g. Pour déconnecter le bot faire ctrl + c dans l'invite de commande.
