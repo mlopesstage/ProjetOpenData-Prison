@@ -26,4 +26,4 @@ bot.on('message', message => {
     Sup.parse(message) //Commande !sup
 })
 
-bot.login('Saisir ici la clé')
+bot.login('Nzc1MDEwNDg5NDI3MTY1MjU0.X6gGww.ksL" "imP_rjneYGkWnPS54YlbBNc4')
