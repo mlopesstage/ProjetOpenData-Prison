@@ -25,3 +25,5 @@ bot.on('message', message => {
     Git.parse(message) //Commande !git
     Sup.parse(message) //Commande !sup
 })
+
+bot.login('Saisir ici la clé')
