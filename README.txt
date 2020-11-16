@@ -24,6 +24,12 @@ Nous avons développé et testé cette application sur Windows.
 	a. Tout d'abord il faut télécharger et installer Node.js sur votre ordinateur
 	https://nodejs.org/fr/
 
+
+	b. Suite a la sécurité de discord nous ne pouvons mettre la clé de connexion dans le code.
+	Afin de tester le code il faudra donc ouvrir "index.js" dans le dossier du projet.
+	Tout en bas la où il y a écrit "bot.login" saisir "Nzc1MDEwNDg5NDI3MTY1MjU0.X6gGww.YQS3ZUg9PcCojNoT5_hk2Roz3sM" au lieu de "Saisir ici la clé"
+
+
 	b. Ensuite ouvrez un invité de commande
 	Cliquer sur la bare de recherche Windows
 	Taper : cmd
