@@ -25,5 +25,3 @@ bot.on('message', message => {
     Git.parse(message) //Commande !git
     Sup.parse(message) //Commande !sup
 })
-
-//bot.login('Nzc1MDEwNDg5NDI3MTY1MjU0.X6gGww.T8dd-cfvvMggfelfjUrV16Kqfhc')
