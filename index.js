@@ -1,7 +1,7 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client()
 
-const Command = require('./command/command')
+//const Command = require('./command/command')
 const Help = require('./command/help')
 const PIB = require('./command/pib')
 const Txc = require('./command/txc')
@@ -13,7 +13,7 @@ const Sup = require('./command/sup')
 
 //Paramètres du bot
 bot.on('ready', function() {
-    bot.user.setAvatar('./photos/terre.png').catch(console.error) //Permets de changer la photo du bot
+    //bot.user.setAvatar('./photos/terre.png').catch(console.error) //Permets de changer la photo du bot
     bot.user.setActivity('!help').catch(console.error) //Permets de changer le statut du bot
 })
 
