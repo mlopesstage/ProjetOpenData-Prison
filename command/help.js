@@ -22,7 +22,7 @@ module.exports = class Help extends Command {
                 ':flag_pt: Portugal') //Champ 2 : Les pays
             .addField('Les commandes sont :', ':arrow_right: !pib : Affiche le graphique des PIB\n' +
                 ':arrow_right:   !txc : Affiche le graphique du Taux de chômage\n' +
-                ":arrow_right:   !nbi : Affiche le graphique du Nombre d'infractrions enregistrées\n" +
+                ":arrow_right:   !nbi : Affiche le graphique du Nombre d'infractions enregistrées\n" +
                 ':arrow_right:   !nbp : Affiche le graphique du Nombre de personnes en prison\n' +
                 ':arrow_right:   !cog : Affiche le graphique du Nombre du coefficient de Gini\n' +
                 ':arrow_right:   !git : Lien vers le GitHub\n' +
