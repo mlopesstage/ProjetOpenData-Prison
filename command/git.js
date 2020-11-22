@@ -8,7 +8,7 @@ module.exports = class Help extends Command {
     }
 
     static action(message) { //Si on retourne vrai, alors le bot envoie le message
-            message.channel.send('Voici le lien du Github :link: :\n' +
-                'https://github.com/mlopesstage/ProjetOpenData-Prison')
+        message.channel.send('Voici le lien du Github :link: :\n' +
+            'https://github.com/mlopesstage/ProjetOpenData-Prison')
     }
 }
