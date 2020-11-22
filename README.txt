@@ -23,8 +23,8 @@ Nous avons développé et testé cette application sur Windows.
 		https://nodejs.org/fr/
 
 	b. Suite a la sécurité de discord il faudra modifier le fichier "index.js" dans le dossier du projet.
-		Tout en bas du fichier, la où il y a écrit "bot.login" supprimer " " au mileu de la chaîne de lettres et chiffres.
-		Vous aurez donc ...ksLimP... au lieu de ...ksL" "imP...
+		Tout en bas du fichier, la où il y a écrit "bot.login" supprimer *** au mileu de la chaîne de lettres et chiffres.
+		Vous aurez donc ...DXJZir... au lieu de ...DXJ***Zir...
 
 
 	c. Ensuite ouvrez un invité de commande

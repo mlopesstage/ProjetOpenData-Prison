@@ -30,4 +30,4 @@ bot.on('message', message => {
 })
 
 //Token permettant le lancement et la modification du bot sur les serveurs
-bot.login('Nzc1MDEwNDg5NDI3MTY1MjU0.X6gGww.ksLimP_rjneYGkWnPS54YlbBNc4')
+bot.login('Nzc1MDEwNDg5NDI3MTY1MjU0.X6gGww.ODXJ***ZirBrQ6MO-FR5HN5mdCDoLQ')
