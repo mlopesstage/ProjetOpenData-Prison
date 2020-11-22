@@ -19,7 +19,7 @@ bot.on('ready', function() {
 
 //Fait les appels nécessaires en fonction de la commande saisie
 bot.on('message', message => {
-    Help.parse(message) //Commande !help
+    Help.parse(message)//Commande !help
     PIB.parse(message) //Commande !pib
     Txc.parse(message) //Commande !txc
     Nbi.parse(message) //Commande !nbi
@@ -30,4 +30,4 @@ bot.on('message', message => {
 })
 
 //Token permettant le lancement et la modification du bot sur les serveurs
-bot.login('Nzc1MDEwNDg5NDI3MTY1MjU0.X6gGww.ksL" "imP_rjneYGkWnPS54YlbBNc4')
+bot.login('Nzc1MDEwNDg5NDI3MTY1MjU0.X6gGww.ksLimP_rjneYGkWnPS54YlbBNc4')
