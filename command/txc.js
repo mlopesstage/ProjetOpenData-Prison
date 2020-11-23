@@ -10,6 +10,6 @@ module.exports = class Help extends Command {
 
     static action(message) { //Si on retourne vrai, alors le bot envoie le message + la photo
         const attachment = new MessageAttachment('./photos/tauxChomage.png') //Récupération de la photo
-        message.channel.send('Voici le graphique du Taux de chommage :money_with_wings: :\n', attachment)
+        message.channel.send('Voici le graphique du Taux de chômage :money_with_wings: :\n', attachment)
     }
 }
