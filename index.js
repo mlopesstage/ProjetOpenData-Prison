@@ -13,8 +13,8 @@ const Sup = require('./command/sup')
 
 //Paramètres du bot
 bot.on('ready', function() {
-    //bot.user.setAvatar('./photos/terre.png').catch(console.error) //Permets de changer la photo du bot
-    bot.user.setActivity('!help').catch(console.error) //Permets de changer le statut du bot
+    //bot.user.setAvatar('./photos/terre.png').catch(console.error) //Permet de changer la photo du bot
+    bot.user.setActivity('!help').catch(console.error) //Permet de changer le statut du bot
 })
 
 //Fait les appels nécessaires en fonction de la commande saisie
