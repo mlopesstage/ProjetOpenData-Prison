@@ -22,13 +22,12 @@ Nous avons développé et testé cette application sur Windows.
 	a. Tout d'abord il faut télécharger et installer Node.js sur votre ordinateur.
 		https://nodejs.org/fr/
 
-	b. Suite a la sécurité de discord il faudra modifier le fichier "index.js" dans le dossier du projet.
-		Tout en bas du fichier, la où il y a écrit "bot.login" supprimer *** au mileu de la chaîne de lettres et chiffres.
+	b. Suite à la sécurité de discord il faudra modifier le fichier "index.js" dans le dossier du projet, grâce à un éditeur de texte (bloc-notes).
+		Tout en bas du fichier, là où il y a écrit "bot.login" supprimer *** au mileu de la chaîne de lettres et chiffres.
 		Vous aurez donc ...DXJZir... au lieu de ...DXJ***Zir...
 
-
 	c. Ensuite ouvrez un invité de commande
-		Cliquer sur la bare de recherche Windows
+		Cliquer sur la barre de recherche Windows
 		Taper : cmd
 		Choisir "Invite de commandes"
 
@@ -48,12 +47,15 @@ Nous avons développé et testé cette application sur Windows.
 3. Pour changer la version des images :
 	/!\ Il vous faudra le pack office de microsoft avec Excel d'installer /!\
 
-	a. Dans le repertoir du projet, aller dans le dossier "donnees".
+	a. Dans le repertoire du projet, aller dans le dossier "donnees".
 
 	b. Ouvrir le tableur "tableurDonnees".
 
-	c. Modifier les valeurs des tableaux si vous voulez.
+	c. Une fois ouvert, cliquer sur "Activer la modification" dans la banière jaune en haut, puis sur "Activiter le contenu" pour activer les macros.
+		Si l'étape ne s'effectue pas correctement chez vous, vous pouvez aller dans "fichier" -> "option" -> "Centre de gestion de la confidentialité" -> "Paramètres" -> "Paramètres des macros" -> "activer les macros"
 
-	d. Sur l'onglet "menu", cliquer sur les boutons "Générer...", pour générer chacun des graphiques.
+	d. Modifier les valeurs des tableaux si vous voulez.
 
-	e. Cliquer sur le graphique souhaité, puis sur le bouton "Exporter..." correspondant.
+	e. Sur l'onglet "menu", cliquer sur les boutons "Générer...", pour générer chacun des graphiques.
+
+	f. Cliquer sur le graphique souhaité, puis sur le bouton "Exporter..." correspondant.
