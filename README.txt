@@ -3,6 +3,8 @@ Ce projet a été réalisé par Michaël LOPES et Luca GARIC.
 
 Nous avons développé et testé cette application sur Windows.
 
+Le dossier "documents", contient le Powerpoint en version PPT et PDF, ainsi que le rapport en version PDF.
+
 1. Préparation du Bot :
 	a. Se créer un compte discord.
 
